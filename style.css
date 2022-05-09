@@ -1,0 +1,115 @@
+:root {
+  --Very-Dark-Gray: hsl(0, 0%, 17%);
+  --Dark-Gray: hsl(0, 0%, 59%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  color: var(--Very-Dark-Gray);
+}
+#map {
+  height: 18rem;
+}
+.title {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background-image: url("images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 2rem;
+  min-height: 20rem;
+}
+.form-elements {
+  position: relative;
+  max-width: 38rem;
+  margin: auto;
+}
+.form-control {
+  padding: 1.5rem;
+  min-width: 38rem;
+  border-radius: 1rem;
+  border: none;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.btn-dark {
+  background-color: var(--Very-Dark-Gray);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  -webkit-border-radius: 0 1rem 1rem 0;
+  -moz-border-radius: 0 1rem 1rem 0;
+  -ms-border-radius: 0 1rem 1rem 0;
+  -o-border-radius: 0 1rem 1rem 0;
+}
+
+.display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6rem;
+  background-color: #fff;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  min-height: 13rem;
+  position: relative;
+  z-index: 9999;
+  padding: 3rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.info-block {
+  border-right: 1px solid;
+  min-height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.info-block-last {
+  border-right: none;
+}
+
+.details {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.results {
+  font-weight: 700;
+  color: var(--Very-Dark-Gray);
+  font-size: 1.6rem;
+}
+
+.map-container {
+  background-color: black;
+  margin-top: -7rem;
+  min-height: 80vh;
+}
