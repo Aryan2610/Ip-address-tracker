@@ -25,8 +25,8 @@ Enter an IP address and track it's location
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: (https://github.com/Aryan2610/Ip-address-tracker)
+- Live Site URL: (https://aryan2610.github.io/Ip-address-tracker)
 
 
 
